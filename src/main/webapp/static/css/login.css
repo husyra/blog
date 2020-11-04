@@ -1,0 +1,83 @@
+.content{
+    padding:0 auto;
+    margin:0 auto;
+    height:400px;
+    width:100%;
+    /*background-color: darkturquoise;*/
+    /*background: url("../images/login_bg.png") no-repeat;*/
+    background-size: 100% 450px;
+    /*margin-top: 25px;*/
+}
+.login-wrap{
+    position: absolute;
+    width:350px;
+    height:280px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    right:200px;
+    /*margin-top:75px;*/
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top:35px;
+    background-size: 100%;
+    background-color: #D8E7FE;
+}
+.login-wrap h3{
+    /*color:#fff;*/
+    font-size:18px;
+    text-align: center;
+}
+.name, .pwd{
+    border: 1px solid #fff;
+    width:230px;
+    height: 40px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    padding-left: 40px; /*文字与边框的距离*/
+}
+.name{
+    background: url("../images/login.png") no-repeat left;
+    background-position-x: 12px;
+}
+.pwd{
+    background: url("../images/password.png") no-repeat left;
+    background-position-x: 12px;
+}
+.btn input{
+    height: 40px;
+    width: 100px;
+    float: left;
+    margin-right: 25px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    /*去掉菱角*/
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    /*鼠标移过去后的图标*/
+    cursor: pointer;
+}
+input:active{
+    /*输入时的边框*/
+    border-color: #147a62;
+}
+.submit{
+    background: #659CEF;
+    margin-left: 60px;
+}
+.reg{
+    background: #ea8c37;
+}
+/*错误信息提示*/
+.msg{
+    color:red;
+    font-size: 14px;
+    padding-left: 60px;
+    padding-top: 10px;
+    clear: both;
+    font-weight: bold;
+}

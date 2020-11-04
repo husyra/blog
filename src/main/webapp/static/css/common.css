@@ -1,0 +1,244 @@
+@CHARSET "UTF-8";
+/*标签选择器*/
+body{
+    background-color: #f8f8ff;
+    /*margin: 0;
+			padding: 0;
+			font-family: 微软雅黑;
+			color: #787878;
+			background-color: #f8f8ff;
+			font-size: 12px;*/
+    /*background: #f8f8ff url(${ctx}/static/images/img01.jpg)  repeat-x left top;*/
+}
+/*id选择器*/
+#header{
+    height: 140px;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #D8E7FE
+}
+
+#logo {
+    float: left;
+    margin: 0;
+    padding-top: 30px;
+    color: #000000;
+}
+#logo h1, #logo p {
+    margin: 0;
+    padding: 0;
+}
+#logo h1 {
+    float: left;
+    padding-left: 80px;
+    letter-spacing: -1px;
+    color: #32639A;
+    font-size: 2.5em;
+}
+#logo p {
+    float: left;
+    margin: 0;
+    padding: 26px 0 0 10px;
+    font: normal 16px 微软雅黑;
+    /*color: #FFFFFF;*/
+}
+
+#footer {
+    height: 50px;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0px 0 15px 0;
+    background: #D8E7FE;
+    border-top: 1px solid #D3DEF0;
+    font-family: 微软雅黑;
+}
+
+#footer p {
+    margin: 0;
+    padding-top: 20px;
+    line-height: normal;
+   /* font-size: 14px;*/
+    /*text-transform: uppercase;*/
+    text-align: center;
+    color: #000;
+}
+
+#footer a {
+    color: #5389E0;
+}
+
+.tab{
+    border:1px solid #9dbedd;
+    padding-top: 10px;
+    width: 1000px;
+}
+.tab tr th{
+    /*border-top:1px solid #9dbedd;
+    border-left:1px solid #9dbedd;
+    border-right:1px solid #9dbedd;*/
+}
+.tab tr td{
+    border-top:1px solid #9dbedd;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+}
+.tab tr th:last-child{
+    /*width: 17%;*/
+}
+/*
+.tab tr td .btn-bg{
+    border-radius: 4px;
+    width: 86px !important;
+    height: 28px !important;
+    background: #0183D5;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #ffffff;
+    line-height: 35px !important;
+}*/
+
+#page {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#page-bgtop {
+    padding: 20px;
+}
+
+#page-bgbtm {
+}
+
+.post {
+    margin-bottom: 5px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.post-bgtop {
+}
+
+.post-bgbtm {
+}
+
+.post .title {
+    margin-bottom: 10px;
+    padding: 6px 0 0 0px;
+    letter-spacing: -.5px;
+    color: #000000;
+}
+
+.post .title a {
+    color: #32639A;
+    border: none;
+}
+
+.post .meta {
+    height: 30px;
+    background: #D8E7FE;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: left;
+    font-family: 微软雅黑;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.post .meta .date {
+    float: left;
+    height: 24px;
+    padding: 3px 15px;
+    color: #4A81DE;
+}
+
+.post .meta .posted {
+    float: right;
+    height: 24px;
+    padding: 3px 15px;
+    background: #9dbedd;
+    color: #FFFFFF;
+}
+
+.post .meta a {
+    color: #FFFFFF;
+}
+
+.post .entry {
+    padding: 0px 0px 20px 0px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+/*用户详情*/
+.detail{
+    width:400px;
+    height:320px;
+    background: #D8E7FE;
+    border:1px #00f solid;
+    padding: 15px;
+    margin-top: 20px;
+    /*margin: 20px auto;*/
+    border-radius:50px;
+}
+#left{
+    margin-left: 220px;
+}
+.detail table{
+    /*border :1px solid #9dbedd;*/
+    padding: 10px;
+}
+.detail table tr td{
+    /*width: 80px;*/
+    padding-bottom: 10px;
+    /*border :1px solid #9dbedd;
+    border-radius: 20px;*/
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    font-size: 20px;
+}
+.info{
+    color: #32639A;
+}
+
+#right{
+    position: absolute;
+    top:115px;
+    left:700px;
+    padding: 15px;
+}
+
+#right #guanzhu, #fensi, #blog, #comment{
+    position: absolute;
+    height: 100px;
+    width: 80px;
+    border :1px solid #9dbedd;
+    border-radius: 10px;
+    top:20px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+}
+#guanzhu{
+    left: 20px;
+}
+#fensi{
+    left: 120px;
+}
+#blog{
+    left: 220px;
+}
+#comment{
+    left: 320px;
+}
+
+/*修改按钮*/
+.input{
+    border-radius: 5px;
+    cursor: pointer;
+    color: #32639A;
+}
