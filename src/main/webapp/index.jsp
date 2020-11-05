@@ -6,7 +6,7 @@
         <meta http-equiv="pragma" content="no-cache">
         <meta http-equiv="cache-control" content="no-cache">
         <meta http-equiv="expires" content="0">
-        <title></title>
+        <title>测试</title>
         <link href="${ctx}/static/css/common.css" rel="stylesheet" type="text/css"/>
         <link href="${ctx}/static/css/login.css" rel="stylesheet" type="text/css"/>
     </head>
